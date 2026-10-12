@@ -1,0 +1,12 @@
+{
+  "name": "asklens-relay",
+  "version": "1.0.0",
+  "description": "Tiny relay that passes a copied link or address from your PC to your phone. Keeps nothing for more than 10 minutes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/phone-sim.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
